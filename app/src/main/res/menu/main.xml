@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mnu_howto"
+        android:title="@string/howto"
+        android:icon="@drawable/ic_baseline_help_outline_24"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/mnu_source_code"
+        android:title="@string/source_code"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/mnu_licences"
+        android:title="@string/licences"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/mnu_privacy"
+        android:title="@string/privacy"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/mnu_play_store"
+        android:title="@string/play_store"
+        app:showAsAction="never"
+        />
+    <item
+        android:id="@+id/mnu_tweet"
+        android:title="@string/tweet"
+        app:showAsAction="never"
+        />
+</menu>

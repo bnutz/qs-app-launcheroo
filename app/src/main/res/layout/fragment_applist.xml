@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="@dimen/default_elevation"
+    android:background="@drawable/bg_bottomsheet"
+    >
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_search_apps"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/half_padding"
+        android:paddingHorizontal="@dimen/default_padding"
+        android:hint="@string/search_app_hint"
+        app:startIconDrawable="@drawable/ic_search_app"
+        app:endIconMode="clear_text"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/recycler_applist"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_search_apps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="(App or package name)"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_applist"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:scrollbars="none"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/listitem_applist"
+        app:layout_constraintTop_toBottomOf="@id/input_search_apps"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+    <TextView
+        android:id="@+id/txt_placeholder"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="@string/loading"
+        app:layout_constraintTop_toTopOf="@id/recycler_applist"
+        app:layout_constraintBottom_toBottomOf="@id/recycler_applist"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

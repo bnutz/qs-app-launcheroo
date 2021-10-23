@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">QS App Launcheroo</string>
+
+    <string name="no_apps_found">No launchable or matching apps found.</string>
+    <string name="search_app_hint">Search App</string>
+
+    <string name="no_package">Target app not found</string>
+    <string name="quicksetting_hint">(Add &amp; close Edit to refresh)</string>
+
+    <string name="unassigned_title">Shortcut %02d</string>
+    <string name="unassigned_subtitle">(No app assigned)</string>
+    <string name="assign">Assign</string>
+    <string name="reassign">Reassign</string>
+    <string name="clear">Clear</string>
+
+    <string name="threshold">Threshold</string>
+    <string name="invert">Invert</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="shortcut_cleared">Shortcut cleared.</string>
+    <string name="undo">Undo</string>
+
+    <string name="shortcut_enabled">Shortcut enabled.</string>
+    <string name="help">Help</string>
+
+    <string name="close">Close</string>
+
+    <string name="howto">How To Use</string>
+    <string name="source_code">📝 Source Code</string>
+    <string name="licences">📜 Licences</string>
+    <string name="privacy">🔒 Privacy</string>
+    <string name="play_store">🎈 Play Store</string>
+    <string name="tweet">💬 @Brian_Nutz</string>
+</resources>

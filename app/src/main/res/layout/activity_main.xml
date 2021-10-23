@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    >
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/container_quicktoggles"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_qs_toggles"
+        />
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/container_bottomsheet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="@dimen/default_elevation_clip"
+        android:clipToPadding="false"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+        tools:name="com.justbnutz.quicksettingsapplauncheroo.views.AppListFragment"
+        tools:layout="@layout/fragment_applist"
+        />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
