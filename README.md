@@ -15,7 +15,7 @@ How to add / remove Quick Settings buttons: https://support.google.com/android/a
 
 ### Download ###
 
-* (TBC)
+* https://play.google.com/store/apps/details?id=com.justbnutz.quicksettingsapplauncheroo
 
 
 ### Screenshots ###
